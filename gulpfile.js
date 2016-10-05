@@ -20,6 +20,7 @@ gulp.task('clean', function () {
         'src/lib/pluck.d.ts',
         'src/lib/remove-element.d.ts',
         'src/lib/set-opacity-async.d.ts',
+        'src/lib/target-value.d.ts',
         'src/lib/translate-x.js',
         'src/lib/add-or-update.js',
         'src/lib/append-to-body-async.js',
@@ -31,6 +32,7 @@ gulp.task('clean', function () {
         'src/lib/pluck.js',
         'src/lib/remove-element.js',
         'src/lib/set-opacity-async.js',
+        'src/lib/target-value.js',
         'src/lib/translate-x.js'
     ];
 
@@ -51,6 +53,7 @@ gulp.task('compile', ['clean'], function () {
         './src/lib/src/pluck.ts',
         './src/lib/src/remove-element.ts',
         './src/lib/src/set-opacity-async.ts',
+        './src/lib/src/target-value.ts',
         './src/lib/src/translate-x.ts',
         config.libraryTypeScriptDefinitions
     ];
